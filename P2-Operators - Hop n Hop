@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a, b, q, v, x;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    q = (a - 3)*(a - 3);
+    v = (b - 4)*(b - 4);
+    x = sqrt((q) +(v));
+    printf("%d", (int)x);
+    
+    return 0;
+}
