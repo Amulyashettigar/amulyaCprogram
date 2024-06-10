@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int x, y, z, a, b, c, d, e;
+    scanf("%d", &x);
+    scanf("%d", &y);
+    scanf("%d", &z);
+    a = (y*0.01)*x;
+    b= x- a;
+    c = (z*0.01)*b;
+    d = x - a - c;
+    e = d/3;
+    printf("%d\n", (int)a);
+    printf("%d\n", (int)c);
+    printf("%d\n", (int)e);
+    return 0;
+}
