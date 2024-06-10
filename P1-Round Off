@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    float num;
+    int number, largest;
+    scanf("%f", &num);
+    number = ceil(num);
+    largest = floor(num);
+    printf("%d\n",(int)num);
+    printf("%d\n", number);
+    printf("%d\n", largest);
+    
+    
+    return 0;
+}
