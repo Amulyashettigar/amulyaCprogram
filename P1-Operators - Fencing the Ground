@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int l, b, area, perimeter ;
+    scanf("%d\n", &l);
+    scanf("%d\n", &b);
+    perimeter= 2*(l+b);
+    area = (l*b);
+    printf("The required length is %d m\n", perimeter );
+    printf("The required area of carpet is %d sqm\n", area);
+    return 0;
+}
