@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    
+     float principle, year, roi;
+     float total, intrest, amount, discount;
+     scanf("%f", & principle);
+     scanf("%f", & year);
+     scanf("%f", & roi);
+     
+     intrest = principle * year * roi/100.0;
+     amount = principle + intrest;
+     discount = 0.02 * intrest;
+     total = amount - discount;
+     printf("%.2f\n%.2f\n%.2f\n%.2f\n", intrest, amount, discount,total);
+    return 0;
+}
