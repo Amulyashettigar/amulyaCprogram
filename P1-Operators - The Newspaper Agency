@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a, b, c, z, w, profit;
+    scanf("%d\n", &a);
+    scanf("%d\n", &b);
+    scanf("%d\n", &c);
+    z = (a*c)+100;
+    w= (a*b);
+    profit = w - z;
+    printf("%d", profit);
+    
+    return 0;
+}
