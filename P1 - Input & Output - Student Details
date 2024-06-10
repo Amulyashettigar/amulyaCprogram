@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    char n[20];
+    char grade;
+    int i;
+    float a;
+    scanf("%s",n);
+    scanf("%d",&i);
+    scanf("%f",&a);
+    scanf(" %c",&grade);
+    int scaled_cgpa = a * 100;
+    printf("Name: %s\n", n);
+    printf("Age: %d\n", i);
+    printf("CGPA: %.2f\n", scaled_cgpa / 100.0);
+    printf("Grade: %c\n", grade);
+
+    
+    
+    return 0;
+}
