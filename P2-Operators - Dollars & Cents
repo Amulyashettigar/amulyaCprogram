@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a, b, c, d, x, y, dol, dolar, cen;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    scanf("%d", &d);
+    x = a+c;
+    y = (b+d);
+    dol = (y / 100);
+    dolar = dol + x;
+    cen = y % 100;
+    printf("%d\n", (int)dolar);
+    printf("%d\n", (int)cen);
+    return 0;
+}
